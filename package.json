@@ -1,0 +1,28 @@
+{
+  "name": "ios4emoji-convertor",
+  "version": "0.1.0",
+  "description": "convert iOS 4.0 emoji to current version emoji",
+  "main": "dist/main.js",
+  "scripts": {
+    "start": "node dist/main.js",
+    "compile": "babel src --out-dir dist",
+    "compile-watch": "babel src --out-dir dist --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MamoruDS/ios4emoji-convertor.git"
+  },
+  "keywords": [
+    "emoji"
+  ],
+  "author": "mamoruds",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MamoruDS/ios4emoji-convertor/issues"
+  },
+  "homepage": "https://github.com/MamoruDS/ios4emoji-convertor#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1"
+  }
+}
