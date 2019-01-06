@@ -4,6 +4,6 @@ const exampleStr = 'I love  ~'
 
 console.log(ios4emoji.convert2EmojiCurrent(exampleStr))
 
-ios4emoji.setConvertLib('exampleLib.json')
+ios4emoji.setConvertLib('customLib.json')
 
 console.log(ios4emoji.convert2EmojiCurrent(exampleStr))
